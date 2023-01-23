@@ -55,7 +55,7 @@ int main(){
  12345
  12345
  */
-    /*int n;
+   /*int n;
     cin>>n;
 
     int i = 1;
@@ -72,7 +72,93 @@ int main(){
     */
 
    //PATTERN -- 04
+//    123
+//    4567
+//    89101112
 
-    
+    /*int n;
+    cin>>n;
+    int i = 1;
+    int count = 1;
+    while (i<=n)
+    {
+        int j = 1;
+        while (j<=n)
+        {
+            cout<<count<< " ";
+            count = count+1;
+            j = j+1;
+        }
+        cout<< endl;
+        i = i+1;
+    }
+    */
+
+   //PATTERN --- 05
+//    *
+//    **
+//    ***
+//    ****
+//    *****
+
+    /*int n;
+    cin>>n;
+    int row = 1;
+    while (row<=n)
+    {
+        int col = 1;
+        while(col<=row){
+            cout<<"*";
+            col = col + 1;
+        }
+        cout<<endl;
+        row = row + 1;
+    }
+    */
+// PATTERN -- 06
+// 1
+// 2 2 
+// 3 3 3 
+// 4 4 4 4
+    /*int n;
+    cin>>n;
+    int row = 1;
+    while (row<=n)
+    {
+        int col = 1;
+        while(col<=row){
+            cout<<row<<" ";
+            col = col + 1;
+        }
+        cout<<endl;
+        row = row + 1;
+    }
+    */
+
+//PATTER --07
+// 1
+// 23
+// 456
+// 78910
+        /*int n;
+        cin>>n;
+        int row = 1;
+        int count = 1;
+        while (row<=n)
+        {
+            int col = 1;
+            while(col<=row){
+                cout<<count<<" ";
+                count = count + 1;
+                col = col + 1;
+            }
+            cout<<endl;
+            row = row + 1;
+        }
+        */
+
+       //PATTERN -- 08;
+       
+
     return 0;
 }
