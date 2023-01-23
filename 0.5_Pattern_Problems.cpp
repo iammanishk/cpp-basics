@@ -9,6 +9,8 @@ int main(){
     // *****
     // *****
 
+//CODE --
+
    /* int n;
     cin >> n;
     int i = 1;
@@ -25,12 +27,17 @@ int main(){
         i = i +1;
     }
     */
+
+
+   
     //PATTERN -- 02;
     // 11111
     // 22222
     // 33333
     // 44444
     // 55555
+
+    //CODE --
     /*int n;
     cin>>n;
     int i = 1;
@@ -45,8 +52,9 @@ int main(){
         cout<<endl;
         i = i+1;
     }
-    
   */
+
+
  //PATTERN -- 03
  /*
  12345
@@ -55,6 +63,9 @@ int main(){
  12345
  12345
  */
+
+//CODE --
+
    /*int n;
     cin>>n;
 
@@ -71,10 +82,14 @@ int main(){
     }
     */
 
+
+
    //PATTERN -- 04
 //    123
 //    4567
 //    89101112
+
+//CODE --
 
     /*int n;
     cin>>n;
@@ -94,12 +109,16 @@ int main(){
     }
     */
 
+
+
    //PATTERN --- 05
 //    *
 //    **
 //    ***
 //    ****
 //    *****
+
+//CODE --
 
     /*int n;
     cin>>n;
@@ -115,11 +134,16 @@ int main(){
         row = row + 1;
     }
     */
+
+
 // PATTERN -- 06
 // 1
 // 2 2 
 // 3 3 3 
 // 4 4 4 4
+
+//CODE --
+
     /*int n;
     cin>>n;
     int row = 1;
@@ -135,11 +159,15 @@ int main(){
     }
     */
 
+
 //PATTER --07
 // 1
 // 23
 // 456
 // 78910
+
+//CODE --
+
         /*int n;
         cin>>n;
         int row = 1;
@@ -157,8 +185,9 @@ int main(){
         }
         */
 
+
        //PATTERN -- 08;
-       
+
 
     return 0;
 }
